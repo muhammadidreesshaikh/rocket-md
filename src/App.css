@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  overflow-x: hidden !important;
+  font-family: "Montserrat", sans-serif !important;
+  background: white;
+}
+
+:root {
+  --color-black: #020202;
+  --color-light-black: #333333;
+  --color-gry: #b1b1b1;
+  --color-white: #ffff;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
