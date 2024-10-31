@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/css/header.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
+
+import image1 from "../assets/img/logo.png";
 
 const Header = () => {
 
@@ -23,20 +27,13 @@ const Header = () => {
             <div className="row">
               <div className="col-12 col-md-4 col-lg-3">
                   <div className="logo">
-                      <a href="/homepage">Horizon Studio</a>
+                      <a href="/homepage"><img src={image1} /></a>
                   </div>
               </div>
 
               <div className="col-12 col-md-8 col-lg-9">
                 <div className="nav-bar">
-                  <ul>
-                    <li><Link to="/homepage">Home</Link></li>
-                    <li><Link to="/studio">Studio</Link></li>
-                    <li><Link to="/services">Services</Link></li>
-                    {/* <div className='header-btn'>
-                      <a href='/login' className='small-btn-blue'>Login</a>
-                    </div> */}
-                  </ul>
+                  <a href="/homepage" className='blue-lg-btn text-uppercase'>See If You Qualify in 2 Min <FontAwesomeIcon icon={faArrowRightLong} className="icon-spacing"/></a>
                 </div>
               </div>
 

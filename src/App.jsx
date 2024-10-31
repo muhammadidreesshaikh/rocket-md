@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import './App.css'
-import Header from "./layout/header";
+// import Header from "./layout/header";
 import Footer from "./layout/footer";
 import HomePage from "./pages/HomePage";
 
@@ -10,7 +10,7 @@ import { Route, Routes} from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
 
       {/* all components */}
       <div>

@@ -1,47 +1,20 @@
 /* index.html-styling */
 .top-bar {
-    background-color: var(--color-white);
-    padding: 10px 0;
-    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 5%);
+    background-color: #deb887;
+    padding-top: 20px;
+    /* box-shadow: 0 5px 15px 0 rgb(0 0 0 / 5%); */
 }
 
-.top-bar .logo{
-    padding-top: 6px;
-}
-
-.top-bar .logo a {
-    color: var(--color-black);
-    font-size: 19px;
-    font-weight: 600;
+.top-bar .logo a img{
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
 }
 
 .top-bar .nav-bar {
     padding-top: 7px;
     float: right;
-}
-
-.top-bar .nav-bar ul {
-    display: flex;
-    margin-bottom: 0;
-    list-style: none;
-    padding-left: 0;
-}
-
-.top-bar .nav-bar li a {
-    color: var(--color-black);
-    font-size: 15px;
-    padding: 0 15px;
-}
-
-.top-bar .nav-bar li a:hover {
-    transition: 0.5s;
-    opacity: 0.5s;
-    color: var(--color-red);
-}
-
-.top-bar .nav-bar .header-btn{
-    float: right;
-    margin-left: 10px;
 }
 
 .sidenav {
@@ -51,7 +24,7 @@
     z-index: 1;
     top: 50px;
     right: 0;
-    background: var(--color-bg-blue);
+    background: var(--color-black);
     overflow-x: hidden;
     transition: 0.9s;
 }
@@ -144,9 +117,9 @@
         display: none;
     }
 
-    .sidenav ul {
+    /* .sidenav ul {
         padding-left: 0;
-    }
+    } */
 
     .sidenav ul li {
         padding-top: 15px;
@@ -154,12 +127,6 @@
 
     .sidenav ul a {
         font-size: 20px;
-    }
-
-    .header-btn{
-        padding: 0 15px;
-        text-align: center;
-        margin-top: 23px;
     }
 }
 
