@@ -1,8 +1,7 @@
 /* index.html-styling */
 .top-bar {
-    background-color: #deb887;
-    padding-top: 20px;
-    /* box-shadow: 0 5px 15px 0 rgb(0 0 0 / 5%); */
+    background-color: var(--color-light-brown);
+    padding: 15px 0;
 }
 
 .top-bar .logo a img{

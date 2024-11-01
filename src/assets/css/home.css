@@ -1,4 +1,114 @@
 .sec-banner{
     padding: 50px 0;
-    background-color: burlywood;
+    background-color: var(--color-light-brown);
 }
+
+.sec-banner .content-side{
+
+}
+
+.sec-banner .content-side .join-bar{
+    background-color: white;
+    border-radius: 25px;
+    width: 70%;
+    height: auto;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sec-banner .content-side .join-bar img{
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.sec-banner .content-side .join-bar h6{
+    padding-left: 20px;
+    font-size: 14px;
+    color: var(--color-black);
+    font-weight: 400;
+}
+
+.sec-banner .content-side .join-bar span{
+    font-weight: 700;
+}
+
+.sec-banner .content-side .head-title{
+    padding-top: 25px;
+}
+
+.sec-banner .content-side .head-title h2{
+    font-size: 30px;
+    color: var(--color-black);
+    font-weight: 400;
+}
+
+.sec-banner .content-side .head-title span{
+    color: var(--color-blue);
+} 
+
+.sec-banner .content-side .weight{
+    padding-top: 25px;
+}
+
+.sec-banner .content-side .weight h6{
+
+}
+
+.sec-banner .content-side .weight .weight-card{
+    width: 80%;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #FFFFFF80;
+    border: 1px solid white;
+    box-shadow: 0px 4px 15px 0px #00000026;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-banner .content-side .weight .weight-card p{
+    font-size: 14px;
+    color: var(--color-black);
+    font-weight: 400;
+}
+
+.sec-banner .content-side .weight .weight-card input{
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.sec-banner .content-side .weight .weight-card h1{
+    font-weight: 900;
+    color: var(--color-blue);
+    font-size: 40px;
+}
+
+.sec-banner .content-side .weight p{
+    font-size: 13px;
+    color: var(--color-black);
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.sec-banner .content-side .weight p span{
+    font-weight: 700;
+}
+
+.sec-banner .img-side{
+    
+}
+
+.sec-banner .img-side img{
+    width: 100%;
+}
+
